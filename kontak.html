@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KONTAK PERPUSTAKAAN ZAM-ZAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <style>
+          
+    body {
+    background-color: #f8f9fa;
+    }
+    
+    /* Kontainer media sosial */
+    .media-sosial {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    }
+
+    .media-sosial:hover {
+    transform: translateY(-2px);
+    }
+
+    /* Ikon SVG */
+    .media-sosial svg {
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+    }
+
+    /* Efek hover pada SVG */
+    .media-sosial:hover svg {
+    transform: scale(1.1);
+    }
+
+    /* Tautan sosial */
+    .media-sosial a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #212529;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    .media-sosial a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+    }
+
+    /* Ikon Bootstrap */
+    .media-sosial i {
+    font-size: 1.5rem;
+    }
+    </style>
+    <link rel="icon" href="img/logo-pondok.png">
+</head>
+
+<body>
+    <nav class="navbar fixed-top sticky-top navbar-expand-lg navbar-light bg-secondary bg-opacity-75 py-2">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container">
+                    <img src="img/logo-pondok.png" alt="logo" style="width:50px;">
+                </div>
+            </nav>
+            <!-- MBS ZAM-ZAM -->
+            <strong><a class="navbar-brand text-white" href="https://smambszamzam.sch.id/" target="_blank" transliterator_get_error_codeaasd>SMA ZAM-ZAM CILONGOK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button></strong>
+
+            <!-- OPAC -->
+            <strong>
+                <a class="navbar-brand text-white" href="https://zamzamlibrary.web.id/" target="_blank">OPAC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </strong>
+
+            <!-- search -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://zamzamlibrary.web.id/">OPAC</a>
+                        </li> -->
+
+                </ul>
+                <!-- <form class="d-flex text-white" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-white text-white" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="text-center mb-4">
+            <img src="img/logo-pondok.png" alt="logo" style="width:100px;" class="mb-2">
+            <h2 class="fw-bold">PERPUSTAKAAN ZAM-ZAM</h2>
+            <h5>SMA MUHAMMADIYAH BOARDING SCHOOL ZAM-ZAM CILONGOK</h5>
+            <p class="text-muted">NPP: 3302171E01000001</p>
+        </div>
+
+        <!-- <form class="d-flex" method="get" action="cari_buku.php">
+            <input class="form-control me-2" type="search" name="q" placeholder="Cari buku..." aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Cari</button>
+        </form> -->
+        <strong>
+            <ul class="nav nav-tabs">
+                <li class="nav-item dropdown">
+                    <a class="nav-link
+                dropdown-toggle" href="index.php" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PROFIL
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                        <li><a class="dropdown-item" href="index.php">Profil perpustakaan </a></li>
+                        <li><a class="dropdown-item" href="visi_misi.html">Visi dan Misi</a></li>
+                        <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                        <li><a class="dropdown-item" href="struktur.html">Struktur Organisasi</a></li>
+                        <li><a class="dropdown-item" href="tata_tertib.html">Tata Tertib</a></li>
+                        <li><a class="dropdown-item" href="fasilitas.html">Fasilitas</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link
+                dropdown-toggle" href="#" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        LAYANAN
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                        <li><a class="dropdown-item" href="jam_buka.html">Jam Buka Layanan</a></li>
+                        <li><a class="dropdown-item" href="baca_ditempat.html">Baca di Tempat</a></li>
+                        <li><a class="dropdown-item" href="layanan_sirkulasi.html">Layanan Sirkulasi</a></li>
+                        <li><a class="dropdown-item" href="layanan_referensi.html">Layanan Referensi</a></li>
+                        <li><a class="dropdown-item" href="layanan_penelusuran.html">Layanan Penelusuran</a></li>
+                        <li><a class="dropdown-item" href="layanan_bebas_pustaka.html">Layanan Bebas Pustaka</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="koleksi.php">KOLEKSI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="blank" href="https://zamzamlibrary.web.id/">OPAC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="kontak.html">KONTAK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="e_resources.html">e-RESOURCES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="survei.html">SURVEI</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+            </ul>
+        </strong>
+
+        <div class="container mt-5">
+            <h3 class="text-center fw-bold mb-4">KONTAK</h3>
+
+            <div class="card mt-4 shadow-sm border-0">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col">                               
+                            <div class="card-body">
+                                 
+                                <p class="fs-5 fw-semibold text-dark mb-1">KONTAK PERPUSTAKAAN ZAM-ZAM CILONGOK</p>
+                                <p class="fw-semibold text-dark mb-1">Alamat:</p>
+                                <p class="text-secondary mb-3">
+                                Komplek Perguruan Muhammadiyah<br>
+                                Jl. Raya Pernasidi No. 9, Kec. Cilongok, Kab. Banyumas<br>
+                                Kode Pos: 53162
+                                </p>
+
+                                <!-- Google Maps Embed -->
+                                <div class="text-center mb-4">
+                                <div class="ratio ratio-16x9 mx-auto" style="max-width: 500px; border: 3px solid #0d6efd; border-radius: 10px;">
+                                    <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19474.018538856046!2d109.1305472!3d-7.395737599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6561a8fad5b699%3A0x338dbe1963e3614d!2sModern%20Ponpes%20Zam%20Zam!5e1!3m2!1sen!2sid!4v1753762122741!5m2!1sen!2sid" 
+                                    style="border:0;" allowfullscreen="" loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
+                                </div>
+
+                                <hr>
+
+                                <!-- Kontak -->
+                                <div class="mb-4">
+                                    <h5 class="fw-bold mb-3">Kontak</h5>
+                                    
+                                    <div class="media-sosial">
+                                        <i class="bi bi-instagram text-warning"></i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.176 1.322l2.844-1.322 4.041 7.89-2.724 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.862 3.591-19.103-18.258-11.385-22.281zm1.929 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398z"/></svg> (0281) 655145
+                                    </div>                                                                      
+                                    <div class="media-sosial">
+                                        <i class="bi bi-instagram text-warning"></i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 9.062s-5.188-.333-7 1.938c2-4.896 7-5.938 7-5.938v-2l5 4-5 4.019v-2.019zm-18.974 14.938h23.947l-11.973-11.607-11.974 11.607zm1.673-14l10.291-7.488 3.053 2.218c.712-.459 1.391-.805 1.953-1.054l-5.006-3.637-11.99 8.725v12.476l7.352-7.127-5.653-4.113zm15.753 4.892l6.548 6.348v-11.612l-6.548 5.264z"/></svg>                                            
+                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=perpustakaanmbszamzam@gmail.com" 
+                                             target="_blank">perpustakaanmbszamzam@gmail.com
+                                        </a>
+                                    </div>                                                                    
+                                </div>
+
+                                <!-- Media Sosial -->
+                                <div class="mb-4">
+                                    <h5 class="fw-bold mb-3">Media Sosial</h5>
+
+                                    <!-- Instagram -->
+                                    <div class="media-sosial">
+                                    <i class="bi bi-instagram text-warning"></i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                    <a href="https://instagram.com/perpustakaan.zamzam" target="_blank">@perpustakaan.zamzam</a>
+                                    </div>
+
+                                    <!-- Facebook -->
+                                    <div class="media-sosial">
+                                    <i class="bi bi-facebook text-primary"></i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                                    <a href="https://facebook.com/perpustakaanzamzam" target="_blank">Perpustakaan Zamzam</a>
+                                    </div>
+                                </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <footer class="bg-light text-center py-3 mt-4">
+        <small>&copy; 2025 Perpustakaan SMA MBS ZAM-ZAM. All rights reserved.</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
